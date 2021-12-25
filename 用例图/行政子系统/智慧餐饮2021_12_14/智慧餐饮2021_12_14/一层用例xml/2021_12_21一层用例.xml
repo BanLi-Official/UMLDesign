@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_kkgsMBeLEd60N8ipLbB6nA" name="一层用例图">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_HQBjsGJgEeymMLTHubbXww" name="采购员"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_HSIcgGJgEeymMLTHubbXww" name="餐厅经理"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_HSPKMGJgEeymMLTHubbXww" name="服务员"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_HSYUIGJgEeymMLTHubbXww" name="仓储人员"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_HSdzsGJgEeymMLTHubbXww" name="财务人员"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_HSmWkGJgEeymMLTHubbXww" name="人事人员"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_HStrUGJgEeymMLTHubbXww" name="厨师"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_HS7GsGJgEeymMLTHubbXww" name="供应商"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_HTEQoGJgEeymMLTHubbXww" name="宣传人员"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HUi3UGJgEeymMLTHubbXww" name="采购管理"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HWDTMGJgEeymMLTHubbXww" name="审核申请"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HWQHgGJgEeymMLTHubbXww" name="前厅服务"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HWeJ8GJgEeymMLTHubbXww" name="仓储管理"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HWszcGJgEeymMLTHubbXww" name="结算工资"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HW7c8GJgEeymMLTHubbXww" name="核发付款单"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HXIRQGJgEeymMLTHubbXww" name="招聘管理"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HXWTsGJgEeymMLTHubbXww" name="绩效考核"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HXk9MGJgEeymMLTHubbXww" name="菜品管理"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HXyYkGJgEeymMLTHubbXww" name="供应商管理"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HYBpIGJgEeymMLTHubbXww" name="配送管理"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HYSH0GJgEeymMLTHubbXww" name="宣传管理"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HYhYYGJgEeymMLTHubbXww" name="查看餐厅的收支信息"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HYuzwGJgEeymMLTHubbXww" name="统计餐厅收支"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HZclcGJgEeymMLTHubbXww" name="Association_1" memberEnd="_HZj6MGJgEeymMLTHubbXww _HboWwGJgEeymMLTHubbXww" navigableOwnedEnd="_HZj6MGJgEeymMLTHubbXww _HboWwGJgEeymMLTHubbXww">
+    <ownedEnd xmi:id="_HZj6MGJgEeymMLTHubbXww" name="src" type="_HQBjsGJgEeymMLTHubbXww" association="_HZclcGJgEeymMLTHubbXww"/>
+    <ownedEnd xmi:id="_HboWwGJgEeymMLTHubbXww" name="dst" type="_HUi3UGJgEeymMLTHubbXww" association="_HZclcGJgEeymMLTHubbXww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HbsoMGJgEeymMLTHubbXww" name="Association_2" memberEnd="_Hbt2UGJgEeymMLTHubbXww _Hb1LEGJgEeymMLTHubbXww" navigableOwnedEnd="_Hbt2UGJgEeymMLTHubbXww _Hb1LEGJgEeymMLTHubbXww">
+    <ownedEnd xmi:id="_Hbt2UGJgEeymMLTHubbXww" name="src" type="_HSIcgGJgEeymMLTHubbXww" association="_HbsoMGJgEeymMLTHubbXww"/>
+    <ownedEnd xmi:id="_Hb1LEGJgEeymMLTHubbXww" name="dst" type="_HWDTMGJgEeymMLTHubbXww" association="_HbsoMGJgEeymMLTHubbXww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Hb3nUGJgEeymMLTHubbXww" name="Association_3" memberEnd="_Hb4OYGJgEeymMLTHubbXww _Hb_jIGJgEeymMLTHubbXww" navigableOwnedEnd="_Hb4OYGJgEeymMLTHubbXww _Hb_jIGJgEeymMLTHubbXww">
+    <ownedEnd xmi:id="_Hb4OYGJgEeymMLTHubbXww" name="src" type="_HSPKMGJgEeymMLTHubbXww" association="_Hb3nUGJgEeymMLTHubbXww"/>
+    <ownedEnd xmi:id="_Hb_jIGJgEeymMLTHubbXww" name="dst" type="_HWQHgGJgEeymMLTHubbXww" association="_Hb3nUGJgEeymMLTHubbXww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HcB_YGJgEeymMLTHubbXww" name="Association_4" memberEnd="_HcDNgGJgEeymMLTHubbXww _HcJ7MGJgEeymMLTHubbXww" navigableOwnedEnd="_HcDNgGJgEeymMLTHubbXww _HcJ7MGJgEeymMLTHubbXww">
+    <ownedEnd xmi:id="_HcDNgGJgEeymMLTHubbXww" name="src" type="_HSYUIGJgEeymMLTHubbXww" association="_HcB_YGJgEeymMLTHubbXww"/>
+    <ownedEnd xmi:id="_HcJ7MGJgEeymMLTHubbXww" name="dst" type="_HWeJ8GJgEeymMLTHubbXww" association="_HcB_YGJgEeymMLTHubbXww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HcNlkGJgEeymMLTHubbXww" name="Association_5" memberEnd="_HcOMoGJgEeymMLTHubbXww _HcVhYGJgEeymMLTHubbXww" navigableOwnedEnd="_HcOMoGJgEeymMLTHubbXww _HcVhYGJgEeymMLTHubbXww">
+    <ownedEnd xmi:id="_HcOMoGJgEeymMLTHubbXww" name="src" type="_HWszcGJgEeymMLTHubbXww" association="_HcNlkGJgEeymMLTHubbXww"/>
+    <ownedEnd xmi:id="_HcVhYGJgEeymMLTHubbXww" name="dst" type="_HSdzsGJgEeymMLTHubbXww" association="_HcNlkGJgEeymMLTHubbXww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HcZy0GJgEeymMLTHubbXww" name="Association_6" memberEnd="_HcaZ4GJgEeymMLTHubbXww _HcerUGJgEeymMLTHubbXww" navigableOwnedEnd="_HcaZ4GJgEeymMLTHubbXww _HcerUGJgEeymMLTHubbXww">
+    <ownedEnd xmi:id="_HcaZ4GJgEeymMLTHubbXww" name="src" type="_HW7c8GJgEeymMLTHubbXww" association="_HcZy0GJgEeymMLTHubbXww"/>
+    <ownedEnd xmi:id="_HcerUGJgEeymMLTHubbXww" name="dst" type="_HSdzsGJgEeymMLTHubbXww" association="_HcZy0GJgEeymMLTHubbXww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HchHkGJgEeymMLTHubbXww" name="Association_7" memberEnd="_HchuoGJgEeymMLTHubbXww _HcnOMGJgEeymMLTHubbXww" navigableOwnedEnd="_HchuoGJgEeymMLTHubbXww _HcnOMGJgEeymMLTHubbXww">
+    <ownedEnd xmi:id="_HchuoGJgEeymMLTHubbXww" name="src" type="_HSmWkGJgEeymMLTHubbXww" association="_HchHkGJgEeymMLTHubbXww"/>
+    <ownedEnd xmi:id="_HcnOMGJgEeymMLTHubbXww" name="dst" type="_HXIRQGJgEeymMLTHubbXww" association="_HchHkGJgEeymMLTHubbXww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HcpDYGJgEeymMLTHubbXww" name="Association_8" memberEnd="_HcqRgGJgEeymMLTHubbXww _HcxmQGJgEeymMLTHubbXww" navigableOwnedEnd="_HcqRgGJgEeymMLTHubbXww _HcxmQGJgEeymMLTHubbXww">
+    <ownedEnd xmi:id="_HcqRgGJgEeymMLTHubbXww" name="src" type="_HXWTsGJgEeymMLTHubbXww" association="_HcpDYGJgEeymMLTHubbXww"/>
+    <ownedEnd xmi:id="_HcxmQGJgEeymMLTHubbXww" name="dst" type="_HSmWkGJgEeymMLTHubbXww" association="_HcpDYGJgEeymMLTHubbXww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Hc0pkGJgEeymMLTHubbXww" name="Association_9" memberEnd="_Hc1QoGJgEeymMLTHubbXww _Hc6JIGJgEeymMLTHubbXww" navigableOwnedEnd="_Hc1QoGJgEeymMLTHubbXww _Hc6JIGJgEeymMLTHubbXww">
+    <ownedEnd xmi:id="_Hc1QoGJgEeymMLTHubbXww" name="src" type="_HStrUGJgEeymMLTHubbXww" association="_Hc0pkGJgEeymMLTHubbXww"/>
+    <ownedEnd xmi:id="_Hc6JIGJgEeymMLTHubbXww" name="dst" type="_HXk9MGJgEeymMLTHubbXww" association="_Hc0pkGJgEeymMLTHubbXww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Hc9zgGJgEeymMLTHubbXww" name="Association_10" memberEnd="_Hc-akGJgEeymMLTHubbXww _HdDTEGJgEeymMLTHubbXww" navigableOwnedEnd="_Hc-akGJgEeymMLTHubbXww _HdDTEGJgEeymMLTHubbXww">
+    <ownedEnd xmi:id="_Hc-akGJgEeymMLTHubbXww" name="src" type="_HS7GsGJgEeymMLTHubbXww" association="_Hc9zgGJgEeymMLTHubbXww"/>
+    <ownedEnd xmi:id="_HdDTEGJgEeymMLTHubbXww" name="dst" type="_HXyYkGJgEeymMLTHubbXww" association="_Hc9zgGJgEeymMLTHubbXww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HdGWYGJgEeymMLTHubbXww" name="Association_11" memberEnd="_HdG9cGJgEeymMLTHubbXww _HdL18GJgEeymMLTHubbXww" navigableOwnedEnd="_HdG9cGJgEeymMLTHubbXww _HdL18GJgEeymMLTHubbXww">
+    <ownedEnd xmi:id="_HdG9cGJgEeymMLTHubbXww" name="src" type="_HSYUIGJgEeymMLTHubbXww" association="_HdGWYGJgEeymMLTHubbXww"/>
+    <ownedEnd xmi:id="_HdL18GJgEeymMLTHubbXww" name="dst" type="_HYBpIGJgEeymMLTHubbXww" association="_HdGWYGJgEeymMLTHubbXww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HdOSMGJgEeymMLTHubbXww" name="Association_12" memberEnd="_HdQucGJgEeymMLTHubbXww _HdW1EGJgEeymMLTHubbXww" navigableOwnedEnd="_HdQucGJgEeymMLTHubbXww _HdW1EGJgEeymMLTHubbXww">
+    <ownedEnd xmi:id="_HdQucGJgEeymMLTHubbXww" name="src" type="_HYSH0GJgEeymMLTHubbXww" association="_HdOSMGJgEeymMLTHubbXww"/>
+    <ownedEnd xmi:id="_HdW1EGJgEeymMLTHubbXww" name="dst" type="_HTEQoGJgEeymMLTHubbXww" association="_HdOSMGJgEeymMLTHubbXww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HdZRUGJgEeymMLTHubbXww" name="Association_13" memberEnd="_HdZ4YGJgEeymMLTHubbXww _HdfX8GJgEeymMLTHubbXww" navigableOwnedEnd="_HdZ4YGJgEeymMLTHubbXww _HdfX8GJgEeymMLTHubbXww">
+    <ownedEnd xmi:id="_HdZ4YGJgEeymMLTHubbXww" name="src" type="_HSIcgGJgEeymMLTHubbXww" association="_HdZRUGJgEeymMLTHubbXww"/>
+    <ownedEnd xmi:id="_HdfX8GJgEeymMLTHubbXww" name="dst" type="_HYhYYGJgEeymMLTHubbXww" association="_HdZRUGJgEeymMLTHubbXww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HdhNIGJgEeymMLTHubbXww" name="Association_14" memberEnd="_Hdh0MGJgEeymMLTHubbXww _Hdoh4GJgEeymMLTHubbXww" navigableOwnedEnd="_Hdh0MGJgEeymMLTHubbXww _Hdoh4GJgEeymMLTHubbXww">
+    <ownedEnd xmi:id="_Hdh0MGJgEeymMLTHubbXww" name="src" type="_HYuzwGJgEeymMLTHubbXww" association="_HdhNIGJgEeymMLTHubbXww"/>
+    <ownedEnd xmi:id="_Hdoh4GJgEeymMLTHubbXww" name="dst" type="_HSdzsGJgEeymMLTHubbXww" association="_HdhNIGJgEeymMLTHubbXww"/>
+  </packagedElement>
+</uml:Model>
